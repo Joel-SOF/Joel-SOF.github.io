@@ -1,0 +1,188 @@
+/* JOEL SOARES OLIMPIO FILHO - 3AN - 715857-9 */
+body
+{
+    background-color: #94ecf731;
+    color: #57483a;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p
+{
+    padding: 10px;
+    font-family: 'Times New Roman';
+    color: #57483a;
+    font-size: 20px;
+    text-indent: 5px;
+}
+h1
+{
+    font-family: 'Lucida Sans';
+    margin: 10px;
+    text-align: center;
+    color: #282aad;
+    font-size: 50px;
+    background-image: url(./onda.jpg);
+}
+#nadador
+{
+    float: right;
+    background-color: #2007ff13;
+    border: 2px double rgb(60, 149, 231);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    margin-bottom: 5px;
+}
+figcaption
+{
+    font-style: italic;
+    margin-top: 5px;
+}
+img
+{
+    width: 500px;
+    border-radius: 200px;
+    border: 2px double rgb(60, 149, 231);
+}
+h2
+{
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: #282aad;
+    font-size: 20px;
+}
+#lista-beneficios li::before
+{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    content: '→ ';
+    padding: 10px;
+}
+.lista-beneficios
+{
+    margin: 10px;
+    float: left;
+    width: 398px;
+
+}
+.texto
+{
+    margin: 50px;
+    text-align: center;
+    width: 400px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #2007ff13;
+    border: 1px #282aad;
+    border-style: groove;
+    height: 317px;
+    vertical-align: middle;
+    display: grid;
+}
+p::first-letter
+{
+    font-weight: bold;
+}
+.rodape
+{
+    clear: both;
+    position: relative;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: #282aad;
+    font-size: 30px;
+    background-image: url(./onda.jpg);
+}
+.bahia
+{
+    float: right;
+    background-color: #2007ff13;
+    border: 2px double rgb(60, 149, 231);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    margin-bottom: 5px;
+    width: 420px;
+}
+.bahia img
+{
+    width: 400px;
+    border-radius: 200px;
+    border: 2px double rgb(60, 149, 231); 
+}
+.bahia figcaption
+{
+    font-style: italic;
+    margin-top: 5px;
+    width: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seaquarium
+{
+    float: right;
+    background-color: #2007ff13;
+    border: 2px double rgb(60, 149, 231);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    margin-bottom: 5px;
+    width: 420px;
+}
+.seaquarium img
+{
+    width: 400px;
+    border-radius: 200px;
+    border: 2px double rgb(60, 149, 231); 
+}
+.seaquarium figcaption
+{
+    font-style: italic;
+    margin-top: 5px;
+    width: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dolphin
+{
+    float: right;
+    background-color: #2007ff13;
+    border: 2px double rgb(60, 149, 231);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    margin-bottom: 5px;
+    width: 420px;
+}
+.dolphin img
+{
+    width: 400px;
+    border-radius: 200px;
+    border: 2px double rgb(60, 149, 231); 
+}
+.dolphin figcaption
+{
+    font-style: italic;
+    margin-top: 5px;
+    width: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
